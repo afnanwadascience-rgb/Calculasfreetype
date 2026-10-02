@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Calculas Typing</title>
+  <meta name="description" content="Premium typing practice platform focused on speed, accuracy, and progress">
+  <meta name="theme-color" content="#12171a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <!-- Hero Section with scroll-controlled video -->
+  <header class="hero-header">
+    <div class="hero-bg">
+      <video class="hero-video" muted loop playsinline preload="metadata" id="heroVideo">
+        <source src="assets/videos/hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-vignette"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">CALCULAS / TYPING</p>
+        <h1 class="hero-headline">Type faster.<br><span>Think sharper.</span></h1>
+        <p class="hero-copy">A focused typing experience built around speed, accuracy, and progress.</p>
+        <a class="hero-cta primary-btn" href="#typing-test">Start typing</a>
+      </div>
+      <div class="hero-scroll">SCROLL TO BEGIN</div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="typing-test" id="typing-test">
+      <!-- Typing test will be rendered by app.js -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <h2>Typing tests</h2>
+          <ul>
+            <li><a href="/typing-test/">Typing test</a></li>
+            <li><a href="/typing-test/timed/">Timed test</a></li>
+            <li><a href="/typing-test/words/">Word count test</a></li>
+            <li><a href="/typing-test/quotes/">Quote test</a></li>
+            <li><a href="/typing-test/paragraph/">Paragraph test</a></li>
+            <li><a href="/typing-test/numbers/">Numbers test</a></li>
+            <li><a href="/typing-test/punctuation/">Punctuation test</a></li>
+            <li><a href="/typing-test/code/">Code test</a></li>
+            <li><a href="/custom-typing-test/">Custom test</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Learn</h2>
+          <ul>
+            <li><a href="/practice/">Typing practice</a></li>
+            <li><a href="/wpm-test/">WPM test</a></li>
+            <li><a href="/typing-speed-test/">How WPM is calculated</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Calculas Typing</h2>
+          <ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/privacy-policy/">Privacy policy</a></li>
+            <li><a href="/terms/">Terms</a></li>
+            <li><a href="/cookie-policy/">Cookie policy</a></li>
+            <li><button type="button" class="linklike" data-consent-open hidden>Cookie settings</button></li>
+          </ul>
+        </div>
+      </div>
+      <p>Test. Practice. Improve. &copy; 2026 Calculas Typing. Typing tests run in your browser and what you type is never uploaded.</p>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "WebSite", "name": "Calculas Typing", "url": "https://calculastyping.com/", "description": "Premium typing practice platform focused on speed, accuracy, and progress"}
+  </script>
+  <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "WebApplication", "name": "Calculas Typing", "url": "https://calculastyping.com/", "description": "Premium typing practice platform focused on speed, accuracy, and progress", "applicationCategory": "EducationalApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}
+  </script>
+
+  <script src="assets/engine.js" defer></script>
+  <script src="assets/content.js" defer></script>
+  <script src="assets/sound.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
