@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/calculas-typing-final.iml" filepath="$PROJECT_DIR$/.idea/calculas-typing-final.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Calculas-Typing-Final.iml" filepath="$PROJECT_DIR$/.idea/Calculas-Typing-Final.iml" />
+>>>>>>> 5646d9938353c06fefb2c9f8d4b2bbe75dd441dd
     </modules>
   </component>
 </project>
